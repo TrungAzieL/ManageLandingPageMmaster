@@ -1,0 +1,60 @@
+:root {
+    --Bright-Red : hsl(12, 88%, 59%);
+    --Dark-Blue: hsl(228, 39%, 23%);
+    --Dark-Grayish-Blue: hsl(227, 12%, 61%);
+    --Very-Dark-Blue: hsl(233, 12%, 13%);
+    --Very-Pale-Red: hsl(13, 100%, 96%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+::placeholder { 
+    color: var(--Dark-Grayish-Blue);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.be-ready {
+    cursor: pointer;
+    padding: 12px 30px;
+    border-radius: 20px;
+    font-size: 13px;
+    background-color: var(--Bright-Red);
+    box-shadow: 0px 10px 15px -7px var(--Bright-Red);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.be-ready:hover {
+    opacity: 0.7;
+}
+
+.be-ready-btn {
+    color: var(--Very-Pale-Red);
+    font-weight: 700;
+    margin-top: -3px;
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01),  rgba(0, 0, 0, 0.5));
+    z-index: 99;
+}
