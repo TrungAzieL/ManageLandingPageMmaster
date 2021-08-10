@@ -124,6 +124,10 @@
         height: 200px;
     }
 
+    .scroll__btn {
+        display: block;
+    }
+
     /* Banner */
     .banner {
         height: 400px;

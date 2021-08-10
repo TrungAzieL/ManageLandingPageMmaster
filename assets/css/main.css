@@ -284,6 +284,7 @@ body {
 
 .scroll__btn {
     padding: 0px 0 40px;
+    display: none;
 }
 
 .scroll__btn button {
